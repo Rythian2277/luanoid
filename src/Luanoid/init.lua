@@ -236,6 +236,14 @@ local Luanoid = Class() do
         return self
     end
 
+    function Luanoid:DistanceFrom(pos)
+        if typeof(pos) == "CFrame" then
+            pos = pos.p
+        end
+
+        return (self.RootPart.Position - pos).Magnitude
+    end
+
     function Luanoid:MoveTo(target, timeout)
         self.MoveToTarget = target
         self.MoveToTimeout = timeout or 8
