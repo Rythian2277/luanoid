@@ -62,6 +62,7 @@ Proper documentation page will be setup later.
   - UnloadAnimation(`string`animationName)
   - UnloadAnimations()
   - Jump()
+  - TakeDamage(`number`)
   - MoveTo(`Vector3`|`BasePart`, `number?`)
   - CancelMoveTo()
   - AddAccessory(`BasePart`|`Model`|`Accessory`)
