@@ -1,0 +1,46 @@
+{
+    "name": "Luanoid - Testing",
+    "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+
+        "Luanoid": {
+          "$path": "src/Luanoid",
+
+          "Enum": {
+            "$path": "Enum"
+          },
+
+          "Class": {
+            "$path": "Opensource-Modules/src/Classes/Class.lua"
+          },
+          
+          "Event": {
+            "$path": "Opensource-Modules/src/Classes/Event.lua"
+          }
+        }
+      },
+
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+
+        "LuanoidServer": {
+          "$path": "Demo/LuanoidServer"
+        }
+      },
+
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+
+        "StarterPlayerScripts": {
+          "$className": "StarterPlayerScripts",
+
+          "PlayerScriptsLoader": {
+            "$path": "Demo/PlayerScriptsLoader.client.lua"
+          }
+        }
+      }
+    }
+  }

@@ -1,12 +1,18 @@
 {
   "name": "Luanoid",
   "tree": {
-    "$className": "DataModel",
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-      "Luanoid": {
-        "$path": "src/Luanoid"
-      }
+    "$path": "src/Luanoid",
+
+    "Enum": {
+      "$path": "Enum"
+    },
+  
+    "Class": {
+      "$path": "Opensource-Modules/src/Classes/Class.lua"
+    },
+    
+    "Event": {
+      "$path": "Opensource-Modules/src/Classes/Event.lua"
     }
   }
 }
